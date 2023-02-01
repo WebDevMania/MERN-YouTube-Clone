@@ -1,0 +1,43 @@
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSideComment{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.leftSideComment > img{
+    border-radius: 50%;
+}
+
+.profileUserMetaData{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.topMetaData{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.topMetaData > span{
+    color: #b7b1b1;
+}
+
+.rightSideComment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.likeIcon{
+    fill: #ded9d9;
+}
+

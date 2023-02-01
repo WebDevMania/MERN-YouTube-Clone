@@ -1,0 +1,61 @@
+.videoCard {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 200px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.videoCard .thumbnail {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.videoCard .channelImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-right: 8px;
+}
+
+.videoCard .detailVideo {
+    display: flex;
+    align-items: center;
+}
+
+.videoCard .detailVideo .rightSideDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoCard .checkIcon{
+    width: 16px;
+    fill: #aea6a6
+}
+
+.channelName {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.viewsAndTime {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    gap: 3px;
+}
+
+.viewsAndTime > *{
+    color: #d3c7c7;
+}
+
+.viewsAndTime .dotIcon {
+    margin: 0 6px;
+    width: 10px;
+    fill: #999;
+}

@@ -1,0 +1,95 @@
+.container{
+    padding: 1rem;
+    height: 70px;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* left side */
+.leftSide{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.leftSide > a{
+    text-decoration: none;
+}
+
+.leftSide > a > h3{
+    padding: 0.25rem 0.75rem;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.menuIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* center side */
+.centerSide{
+    width: 300px;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #444;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.centerSide > input{
+    height: 100%;
+    width: 88%;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 18px;
+}
+
+.centerSide:focus-within{
+    border-color: #888;
+}
+
+.centerSide .searchIcon{
+    height: 100%;
+    width: 12%;
+    padding: 0.35rem;
+    background-color: rgb(78, 66, 66);
+    cursor: pointer;
+}
+
+
+/* right side */
+.rightSide{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rightSide > *{
+    cursor: pointer;
+}
+
+.rightSide .profileCircle{
+    background-color: rgb(66, 66, 209);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide .profileCircle >span{
+    background-color: transparent;
+}

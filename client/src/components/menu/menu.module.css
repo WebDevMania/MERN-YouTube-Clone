@@ -1,0 +1,102 @@
+.container{
+    width: 12%;
+    padding: 0.5rem 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 10px;
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+.item:hover{
+    background-color: #333;
+}
+
+.item:hover > *{
+    background-color: transparent;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.hr{
+    border-width: 0.5px;
+    border-color: gray;
+    margin: 10px 0;
+}
+
+.signIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signIn > .signInText{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signInContainer{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid rgb(104, 104, 236);
+    height: 50px;
+    width: 75%;
+    margin: 10px 0 10px 10px;
+}
+
+.signInContainer > *{
+    color: rgb(104, 104, 236);
+}
+
+.emoji{
+    fill: rgb(104, 104, 236);
+}
+
+/* toggled items */
+.toggledItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    margin-left: 16px;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.toggledItem:hover{
+    background-color: #333;
+}
+
+.toggledItem:hover>*{
+    background-color: transparent;
+}

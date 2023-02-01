@@ -1,0 +1,14 @@
+.container {
+    flex: 1;
+    padding: 1rem;
+    margin: 0 2.5rem;
+}
+
+.cards {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
